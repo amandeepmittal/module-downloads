@@ -8,7 +8,7 @@ exports.yesterday= function (module) {
 
 	return x(url, '.daily-downloads')((err, result) => {
 		if (err) {console.error(err)}
-		console.log('Yesterday, ' + module + ' got ' + result + ' downloads.')
+		console.log('Yesterday, ' + module + ' got ' + result + ' downloads 👏.')
 	})
 }
 
@@ -17,7 +17,7 @@ exports.lastWeek = function (module) {
 
 	return x(url, '.weekly-downloads')((err, result) => {
 		if (err) {console.error(err)}
-		console.log('Las week, ' + module + ' got ' + result + ' downloads.')
+		console.log('Las week, ' + module + ' got ' + result + ' downloads 👍.')
 	})
 }
 
@@ -26,6 +26,6 @@ exports.lastMonth = function (module) {
 
 	return x(url, '.monthly-downloads')((err, result) => {
 		if (err) {console.error(err)}
-		console.log('Last month, ' + module + ' got ' + result + ' downloads.')
+		console.log('Last month, ' + module + ' got ' + result + ' downloads 😎.')
 	})
 }

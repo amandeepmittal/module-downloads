@@ -1,13 +1,14 @@
 {
   "name": "module-downloads",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Check downloads for an npm module",
   "bin": {
     "packagename": "index.js"
   },
   "main": "index.js",
   "scripts": {
-    "install": "Thank you for installing!"
+    "install": "Thank you for installing!",
+    "test": "node test/api.test.js"
   },
   "keywords": [
     "npm",
