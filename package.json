@@ -1,0 +1,23 @@
+{
+  "name": "module-downloads",
+  "version": "0.1.0",
+  "description": "Check downloads for an npm module",
+  "bin": {
+    "packagename": "index.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "install": "Thank you for installing!"
+  },
+  "keywords": [
+    "npm",
+    "nodejs",
+    "cli",
+    "tool"
+  ],
+  "author": "Aman Mittal <amandeepmittal@live.com> (http://amandeepmittal.github.io/)",
+  "license": "MIT",
+  "dependencies": {
+    "x-ray": "2.3.2"
+  }
+}
