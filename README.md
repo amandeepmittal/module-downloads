@@ -1,5 +1,7 @@
 # module-downloads
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/amandeepmittal/module-downloads.svg)](https://greenkeeper.io/)
+
 Check downloads for an npm module(last day | last week | last month).
 
 [![npm](https://img.shields.io/npm/v/module-downloads.svg?style=flat-square)](https://www.npmjs.com/package/module-downloads)
